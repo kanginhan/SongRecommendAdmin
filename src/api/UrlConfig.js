@@ -1,3 +1,4 @@
+// var BASE_URL = "https://songrecommendapi.azurewebsites.net/api";
 var BASE_URL = "https://localhost:44350/api";
 
 export default {
@@ -16,5 +17,10 @@ export default {
         calcWordsRate: BASE_URL + "/word/calcWordsRate",
         getListProposeSong: BASE_URL + "/word/getListProposeSong",
         calcSongsRate: BASE_URL + "/word/calcSongsRate",
+        addSingSong: BASE_URL + "/word/addSingSong",
+        baseSongToPropose: BASE_URL + "/word/baseSongToPropose",
+        findChartList: BASE_URL + "/word/findChartList",
+        findNewList: BASE_URL + "/word/findNewList",
+        updateProposeSongs: BASE_URL + "/word/updateProposeSongs",
     },
 }
